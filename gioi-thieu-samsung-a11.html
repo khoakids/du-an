@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Điện thoại Samsung A11</title>
+		<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link rel="stylesheet" type="text/css" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
+		<style>
+			/* CSS goes here, at the top of the page */	
+			@import url('https://fonts.googleapis.com/css?family=PT+Sans');
+			@import url('https://fonts.googleapis.com/css?family=PT+Serif');
+
+			h1, h2, h4, h5, h6 {
+				font-family: 'PT Sans', 'Helvetica', 'Arial';;
+			}
+
+			html, body {
+				margin: 0;
+				padding: 0;
+				font-family: 'PT Serif', 'Helvetica', 'Arial';
+			}
+			#top-bar {
+				width: 100%;
+				background: #F1F1F1; /* light gray */
+				border-bottom: 1px solid #D4D4D4; /* dark gray "underline" */
+				height: 25px;
+			}
+			.normal-wrapper {
+				width: 900px;
+				margin: 0 auto;
+				padding: 15px 40px;
+				overflow: auto;
+			}
+			.logo-icon {
+				color: #000000;
+				font-size: 60pt;
+				float: left;
+			}
+			h1 {
+				float: left;
+				margin: 21px 0 0 25px;
+			}
+			#navbar {
+			    list-style-type: none; /* remove bullet points */
+			    margin: 29px 0 0 0;
+			    padding: 0;
+			    float: right;
+			    font-size: 16pt;
+				
+			}
+			#navbar li {
+			    display: inline; /* make items horizontal */
+			}
+			#navbar li a:link, #navbar li a:visited, #navbar li a:active { 
+				text-decoration: none; /* remove underline */
+				color: #000000;
+				padding: 0 16px 0 10px; /* space links apart */
+				margin: 0;
+				border-right: 2px solid #B4B4B4; /* divider */
+			}
+			#navbar li a:link.last-link {
+				/* remove divider */
+				border-right: 0px;
+			}
+			#navbar li a:hover {
+				/* change color on hover (mouseover) */
+				color: #EB6361;
+			}
+			#top-color-splash {
+				width: 100%;
+				height: 4px;
+				background: #EB6361;
+			}
+			.one-third {
+				width: 40%;
+				float: left;
+				box-sizing: border-box; /* ensure padding and borders do not increase the size */
+				margin-top: 20px;
+			}
+			.two-third {
+				width: 60%;
+				float: left;
+				box-sizing: border-box; /* ensure padding and borders do not increase the size */
+				padding-left: 40px;
+				text-align: right;
+				margin-top: 20px;
+			}
+			.featured-image {
+				max-width: 500px; /* reduce image size while maintaining aspect ratio */
+			}
+			.no-margin-top {
+				margin-top: 0; /* remove margin on things like headers */
+			}
+			#quote-area {
+				background: #363636;
+				color: #FFFFFF;
+				text-align: center;
+				padding: 15px 0;
+			}
+			h3 {
+				font-weight: normal;
+				font-size: 20pt;
+				margin-top: 0px;
+			}
+			h4 {
+				font-weight: normal;
+				font-size: 16pt;
+				margin-bottom: 0;
+			}
+			.icon-outer {
+				box-sizing: border-box; /* ensure padding and borders do not increase the size */
+				float: left;
+				width: 33.33%;
+				padding: 25px;
+				margin: 0;
+				text-align: center;
+			}
+			.icon-circle {
+				background: #EEEEEE;
+				color: #B4B4B4; 
+				width: 200px;
+				height: 200px;
+				border-radius: 200px; /* make rounded corners */
+				margin: 0 auto;
+				border: 2px solid #D6D6D6;
+				box-sizing: border-box; /* ensure padding and borders do not increase the size */
+				font-size: 75pt;
+				padding: 30px 0 0 0;
+				cursor: pointer;
+			}
+			.icon-circle:hover {
+				/* change color on hover (mouseover) */
+				color: #FFFFFF;
+				background: #EB6361; /* red */
+			}
+			h5 {
+				margin: 15px 0 10px 0;
+				font-size: 20pt;
+			}
+			#footer {
+				width: 100%;
+				background: #F1F1F1; /* light gray */
+				border-top: 1px solid #D4D4D4; /* dark gray "topline" */
+				height: 150px;
+			}
+			.hidden {
+				display: none;
+			}
+			.note-image {
+				text-align: center;
+			}
+			#background-head {
+				background-color: lightblue;
+			}
+			.background-link {
+				background-color:#def;background-image: radial-gradient(closest-side, transparent 98%, rgba(0,0,0,.3) 99%),radial-gradient(closest-side, transparent 98%, rgba(0,0,0,.3) 99%);background-size:80px 80px;background-position:0 0, 40px 40px;
+				}
+			
+		</style>
+	</head>
+	<body>
+		<div id="top-bar"></div>
+
+		<div class="normal-wrapper" id="background-head">
+			<div id="logo-container" style="display:inline-block;">
+				<img src="samsung.png" height="100px" width="100px">
+			</div>
+
+			<ul id="navbar" style="display:inline-block;">
+				<li><a href="" class="background-link">Trang chủ</a></li>
+				<li><a href="#gioithieu" class="background-link">Giới thiệu sản phẩm</a></li>
+				<li><a href="https://www.dienmayxanh.com/dat-hang" class="background-link">Mua hàng</a></li>
+				<li><a href="#lienhe" class="background-link">Liên hệ</a></li>
+			</ul>
+
+		</div>
+
+		<div id="top-color-splash"></div>
+
+		<div class="normal-wrapper">
+			<div class="one-third">
+				<h2 class="no-margin-top">
+					Đặc điểm nổi bật của Samsung Galaxy A11
+				</h2>
+				<h2>
+					Bộ sản phẩm chuẩn: Hộp, Sạc, Sách hướng dẫn, Cáp, Cây lấy sim
+				</h2>
+				<h2>
+					Samsung Galaxy A11 với thiết kế màn hình Infinity-O siêu tràn viền, bộ ba camera ấn tượng, đi kèm với mức giá phải chăng hứa hẹn sẽ tạo nên cơn sốt trên thị trường điện thoại giá rẻ.
+				</h2>		
+			</div>
+
+			<div class="two-third">
+				<img id="f-image-1" class="featured-image" src="Image_1.jpg" />
+				<img id="f-image-2" class="featured-image hidden" src="Image_2.jpg" />
+				<img id="f-image-3" class="featured-image hidden" src="Image_3.jpg" />
+			</div>
+		</div>
+		<div class="normal-wrapper">
+			<b id="gioithieu">
+				Màn hình Infinity-O siêu tràn viền 6.4 inch
+			</b>
+			<p>
+				Vì là smartphone giá rẻ, Galaxy A11 không dùng màn hình AMOLED thường thấy của Samsung, thay vào đó là màn hình PLS TFT độ phân giải HD+. Điểm cộng cho màn hình của máy là kích thước đến 6.4 inch rộng rãi, phù hợp nhiều nhu cầu sử dụng khác nhau.
+			</p>
+			<img src="image_4.JPG" alt="Hình 4" height="600px">
+			<p>
+				Màn hình trên Galaxy A11 sẽ phù hợp cho việc sử dụng cho mục đích xem phim, chơi game thông thường và không đòi hỏi yêu cầu quá cao về đồ họa.
+			</p>
+			<img src="image_5.jpg" alt="Hình 5" height="600px">
+			<p>
+				Mặc dù nằm ở phân khúc giá rẻ máy vẫn sở hữu thiết kế Infinity-O thời thượng với camera trước dạng đục lỗ của các dòng flagship cao cấp như Galaxy S20, Galaxy Note 10,…
+			</p>
+			<img src="image_6.jpg" alt="Hình 6" height="600px">
+			<p>
+				Viền dưới của màn hình cũng còn khá dày, nhưng là một smartphone giá rẻ nên điều này hoàn toàn chấp nhận được. Nói về ưu điểm thì phần viền dày cũng góp phần hạn chế vô tình chạm vào màn hình.
+			</p>
+			<img src="image_7.jpg" alt="Hình 7" height="600px">
+			<b>
+				Lưu giữ khoảnh khắc thường ngày với bộ 3 camera đa dụng
+			</b>
+			<p>
+				Về camera, Galaxy A11 được trang bị 3 camera mặt sau bao gồm: 13 MP + 5 MP + 2 MP, trong khi mặt trước là camera selfie với thiết kế đục lỗ độ phân giải 8 MP để người dùng chụp ảnh “tự sướng” và gọi video call.
+			</p>
+			<img src="Image_8.JPG" alt="Hình 8" height="600px">
+			<p>
+				Bộ 3 camera sau của máy vẫn hỗ trợ tốt các tính năng thời thượng để người dùng có những bức ảnh “sống ảo” đẹp mắt như: nhận diện khuôn mặt, HDR, chụp toàn cảnh (Panorama), Làm đẹp (Beautify) và hỗ trợ quay phim Full HD 1080p...
+			</p>
+			<img src="Image_9.JPG" alt="Hình 9" height="675px">
+			<p class="note-image">
+				Ảnh chụp từ Camera sau của Samsung Galaxy A11
+			</p>
+			<p>
+				Hình ảnh được chụp bằng Samsung Galaxy A11 có chất lượng tốt và độ chi tiết cao, bạn có thể sử dụng thêm tính năng độ chỉnh sửa hình ảnh ngay sau khi chụp, mang tới những tấm hình với nhiều hiệu ứng độc đáo và thú vị.
+			</p>
+			<img src="image_10.jpg" alt="Hình 10" height="675px">
+			<br>
+			<b>
+				Sử dụng ổn định hàng ngày
+			</b>
+			<p>
+				Galaxy A11 được trang bị chip Snapdragon 450 8 nhân tốc độ 1.8 GHz, đi kèm với dung lượng RAM 3 GB bộ nhớ trong 32 GB, có thể mở rộng bằng thẻ nhớ MicroSD lên đến 512 GB.
+			</p>
+			<img src="Image_11.JPG" alt="Hình 11" height="600px">
+			<p>
+				Với cấu hình như trên, các nhu cầu cơ bản như lướt web, xem phim, chơi các game nhẹ nhàng như Candy Crush, Clash of Clans... máy đều có thể đáp ứng tốt. 
+			</p>
+			<br>
+			<p>
+				A11 sẽ được chạy trên hệ điều hành Android 10 mới nhất tùy biến với giao diện One UI 2.0 của Samsung với thiết kế tinh gọn, giao diện nhẹ nhàng cho trải nghiệm đơn giản, mượt mà hơn.
+			</p>
+			<img src="Image_12.JPG" alt="Hình 12" height="600px">
+			<p>
+				Ngoài ra, Galaxy A11 còn được Samsung trang bị viên pin có dung lượng cao 4.000 mAh đủ để bạn sử dụng liên tục trong cả ngày dài, bạn cũng có thể sử dụng thêm tính năng siêu tiết kiệm pin để mang tới thời gian sử dụng tối đa.
+			</p>
+			<img src="Image_13.JPG" alt="Hình 13" height="600px">
+			<p>
+				Bên cạnh đó máy còn được hỗ trợ công nghệ sạc nhanh 15 W giúp bạn có thể nhanh chóng nạp đầy năng lượng cho máy để những trải nghiệm giải trí trên Samsung A11 không bị gián đoạn. 
+			</p>
+		</div>
+
+		<div id="quote-area">
+			<div class="normal-wrapper">
+				<h3>"Samsung A11 sở hữu những nâng cấp đáng giá về màn hình, viên pin và camera, vượt trội hơn hẳn so với tiền nhiệm của nó. Ngoài ra, thiết kế vẻ ngoài máy cũng được Samsung “thổi một làn gió mới” tạo điểm nhấn ấn tượng và cuốn hút người dùng. Với mức giá rẻ, lại dễ dàng đáp ứng mọi nhu cầu giải trí, học tập, liên hệ của người dùng, đây là món hời công nghệ bạn không nên bỏ lỡ thời điểm này."</h3>
+				<h4>Chuyên gia Anh Khoa nhận xét</h4>
+			</div>
+		</div>
+
+		<div class="normal-wrapper">
+			<div class="icon-outer">
+				<div class="icon-circle">
+					<a href="https://www.youtube.com/channel/UCWwgaK7x0_FR1goeSRazfsQ" target="_blank">
+						<i class="fa fa-youtube"></i>
+					</a>
+				</div>
+				<h5>YouTube</h5>
+				<p> Hãy đăng ký theo dấu (subscribe) chúng tôi ngay, để là người đầu tiên được xem các video mới nhất về Samsung, sản phẩm hàng đầu và các chương trình khuyến mãi của chúng tôi.</p>
+			</div>
+
+			<div class="icon-outer">
+				<div class="icon-circle">
+					<a href="https://www.samsung.com/vn/info/contactus/" target="_blank">
+						<i class="fa fa-camera-retro"></i>
+					</a>
+				</div>
+				<h5 id="lienhe">Liên hệ</h5>
+				<p>Nếu có bất kì vấn đề gì cần được giải đáp , hãy click vào đây! Chúng tôi sẽ hỗ trợ bạn 24/24 </p>
+			</div>
+
+			<div class="icon-outer">
+				<div class="icon-circle">
+					<a href="https://www.dienmayxanh.com/dat-hang" target="_blank">
+						<i class="fa fa-dollar"></i>
+					</a>	
+				</div>
+				<h5>Mua sản phẩm</h5>
+				<p>Nếu bạn muốn có hứng thú với sản phẩm của chúng tôi , hãy nhanh tay bấm vào đây để mua hàng</p>
+			</div>
+		</div>
+
+		<div id="footer"></div>
+
+  		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js" type="text/javascript"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js" type="text/javascript"></script>
+
+		<script type="text/javascript">
+			/* JavaScript goes here, at the bottom of the page */
+			$(document).ready(function() {
+			    // run once the page is ready
+			    var time = 2500;
+			    // get the image containers
+			    $im1 = $('#f-image-1');
+			    $im2 = $('#f-image-2');
+			    $im3 = $('#f-image-3');
+
+			    setInterval(function(){
+			    	// call function every x milliseconds (defined in time variable above)
+			    	changeImage();
+			    }, time);
+
+			    var currentImage = 1;
+
+			    function changeImage(){
+			    	switch(currentImage) {
+					    case 1:
+					        // show image 2
+					    	$im1.hide();
+					    	$im2.show();
+					    	$im3.hide();
+					        currentImage = 2;
+					        break;
+					    case 2:
+					    	// show image 3
+					    	$im1.hide();
+					    	$im2.hide();
+					    	$im3.show();
+					        currentImage = 3;
+					        break;
+					    default:
+					   	    // show image 1
+					    	$im1.show();
+					    	$im2.hide();
+					    	$im3.hide();
+					        currentImage = 1;
+					}
+			    }
+			});
+		</script>
+	</body>
+</html>
